@@ -4,7 +4,7 @@ class Umbrella {
             isStatic: true
         }
         this.umb = Bodies.rectangle(x, y,100,300,options)
-        this.image = loadImage("Walking/walking_1.png")
+        this.image = loadImage("walking/walking_1.png")
         World.add(world, this.umb)
         
     }
